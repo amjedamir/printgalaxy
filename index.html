@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | DIGITAL GRAPHICS & HIGH QUALITY</title>
+    <meta
+      name="description"
+      content="A modern, dark-mode portfolio showcasing selected products and interactive previews."
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Remix Icon for modern minimal icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- Simple SVG favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' x2='1' y1='1' y2='0'%3E%3Cstop offset='0' stop-color='%23111827'/%3E%3Cstop offset='0.5' stop-color='%236366f1'/%3E%3Cstop offset='1' stop-color='%23a855f7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='4' y='4' width='56' height='56' rx='16' fill='url(%23g)'/%3E%3Ctext x='50%' y='52%' dominant-baseline='middle' text-anchor='middle' font-size='28' fill='%23e5e7eb' font-family='system-ui, -apple-system, BlinkMacSystemFont, %22Segoe UI%22, sans-serif'%3EP%3C/text%3E%3C/svg%3E"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="dark-theme">
+    <!-- Navigation -->
+    <header class="navbar">
+      <div class="container navbar-inner">
+        <div class="brand">
+          <span class="brand-mark"></span>
+          <span class="brand-text">PrintGalaxy</span>
+        </div>
+        <nav class="nav-links">
+          <a href="#hero" class="nav-link">Home</a>
+          <a href="#products" class="nav-link">Products</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+        <div class="container hero-inner" data-animate="fade-up">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="eyebrow-dot"></span>DGITIAL GRAPHICS &amp; HIGH QUALITY
+            </p>
+            <h1 class="hero-title">
+              Premium 300 DPI Graphics
+              <span class="hero-gradient">for Sublimation & DTF</span>
+            </h1>
+            <p class="hero-subtitle">
+              Over 5,000 high-quality 300 DPI designs for Sublimation & DTF, featuring popular anime, cars, kids cartoons, and basketball graphics—perfect for all printable projects.
+            </p>
+            <div class="hero-actions">
+              <a href="#products" class="btn btn-primary">
+                <i class="ri-magic-line"></i>
+                View Products
+              </a>
+              <button class="btn btn-ghost scroll-hint" data-scroll="#products">
+                <i class="ri-arrow-down-line"></i>
+                Scroll to gallery
+              </button>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-card hero-card-main">
+              <div class="hero-card-header">
+                <span class="hero-pill">Live Preview</span>
+                <i class="ri-fullscreen-line"></i>
+              </div>
+              <div class="hero-card-body">
+                <div class="hero-orbit">
+                  <span class="orbit-dot orbit-dot-1"></span>
+                  <span class="orbit-dot orbit-dot-2"></span>
+                  <span class="orbit-dot orbit-dot-3"></span>
+                </div>
+                <div class="hero-avatar">
+                  <span class="hero-avatar-initial">N</span>
+                </div>
+              </div>
+              <div class="hero-card-footer">
+                <div class="hero-tag">
+                  <span class="tag-dot"></span>
+                  DTF 
+                </div>
+                <div class="hero-tag">Sublimation</div>
+              </div>
+            </div>
+            <div class="hero-card hero-card-secondary">
+              <p class="hero-secondary-label">Next available slot</p>
+              <p class="hero-secondary-value">January · 2026</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products Section -->
+      <section id="products" class="section products">
+        <div class="container">
+          <header class="section-header" data-animate="fade-up">
+            <p class="eyebrow">
+              <span class="eyebrow-dot"></span>Products
+            </p>
+            <div class="section-heading-row">
+              <div>
+                <h2 class="section-title">Examples included in our product</h2>
+                <p class="section-subtitle">
+                  Click on any product to open an interactive preview gallery and explore sample images from the collection to get an idea of the content included in the file. All imagery is placeholder content that you can swap at any time.
+                </p>
+              </div>
+              <div class="section-note">
+                <i class="ri-focus-2-line"></i>
+                <span>These designs are carefully selected to match products in different colors.</span>
+              </div>
+            </div>
+          </header>
+
+          <div class="products-grid">
+            <!-- Product Card 1 -->
+            <article
+              class="product-card"
+              data-animate="fade-up"
+              data-animate-delay="0"
+            >
+              <div class="product-thumb">
+                <img
+                  src="images/PACK NARUTO.jpg"
+                  alt="SaaS dashboard concept preview"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Naruto designs</h3>
+                <p class="product-description">
+                  High-quality images of Naruto anime characters
+                </p>
+                <div class="product-meta-row">
+                  <span class="product-pill">PNG</span>
+                  <span class="dot-separator"></span>
+                  <span class="product-pill">JPGE</span>
+                  <span class="dot-separator"></span>
+                  <span class="product-pill">AI</span>
+                </div>
+              </div>
+              <div class="product-footer">
+                <button
+                  class="btn btn-outline view-preview"
+                  data-gallery="product-1"
+                >
+                  <i class="ri-eye-line"></i>
+                  View Preview
+                </button>
+              </div>
+            </article>
+
+            <!-- Product Card 2 -->
+            <article
+              class="product-card"
+              data-animate="fade-up"
+              data-animate-delay="80"
+            >
+              <div class="product-thumb">
+                <img
+                  src="images/PACK TOKYO GHOUL.jpg"
+                  alt="Mobile banking app preview"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Tokyo Ghoul designs</h3>
+                <p class="product-description">
+                  High-quality images of Tokyo Ghoul anime characters
+                </p>
+                <div class="product-meta-row">
+                  <span class="product-pill">PNG</span>
+                  <span class="dot-separator"></span>
+                  <span class="product-pill">JPGE</span>
+                  <span class="dot-separator"></span>
+                  <span class="product-pill">AI</span>
+                </div>
+              </div>
+              <div class="product-footer">
+                <button
+                  class="btn btn-outline view-preview"
+                  data-gallery="product-2"
+                >
+                  <i class="ri-eye-line"></i>
+                  View Preview
+                </button>
+              </div>
+            </article>
+
+            <!-- Product Card 3 -->
+            <article
+              class="product-card"
+              data-animate="fade-up"
+              data-animate-delay="160"
+            >
+              <div class="product-thumb">
+                <img
+                  src="images/PACK TOKYO REVENGERS.jpg"
+                  alt="Landing page concept preview"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Tokyo Revengers designs</h3>
+                <p class="product-description">
+                  High-quality images of Tokyo Revengers characters
+
+                </p>
+                <div class="product-meta-row">
+                  <span class="product-pill">PNG</span>
+                  <span class="dot-separator"></span>
+                  <span class="product-pill">JPGE</span>
+                  <span class="dot-separator"></span>
+                  <span class="product-pill">AI</span>
+                </div>
+              </div>
+              <div class="product-footer">
+                <button
+                  class="btn btn-outline view-preview"
+                  data-gallery="product-3"
+                >
+                  <i class="ri-eye-line"></i>
+                  View Preview
+                </button>
+              </div>
+            </article>
+                <!-- Product Card 2 -->
+                <article
+                class="product-card"
+                data-animate="fade-up"
+                data-animate-delay="80"
+              >
+                <div class="product-thumb">
+                  <img
+                    src="images/PACK ATAQUE A LOS TITANES.jpg"
+                    alt="Mobile banking app preview"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="product-body">
+                  <h3 class="product-title">Attack on Titan designs</h3>
+                  <p class="product-description">
+                    High-quality images of Attack on Titan anime characters
+                  </p>
+                  <div class="product-meta-row">
+                    <span class="product-pill">PNG</span>
+                    <span class="dot-separator"></span>
+                    <span class="product-pill">JPGE</span>
+                    <span class="dot-separator"></span>
+                    <span class="product-pill">AI</span>
+                  </div>
+                </div>
+                <div class="product-footer">
+                  <button
+                    class="btn btn-outline view-preview"
+                    data-gallery="product-4"
+                  >
+                    <i class="ri-eye-line"></i>
+                    View Preview
+                  </button>
+                </div>
+              </article>
+              <article
+              class="product-card"
+              data-animate="fade-up"
+              data-animate-delay="80"
+            >
+              <div class="product-thumb">
+                <img
+                  src="images/PACK ONE PIECE.jpg"
+                  alt="Mobile banking app preview"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">One Piece designs</h3>
+                <p class="product-description">
+                  High-quality images of One Piece anime characters
+                </p>
+                <div class="product-meta-row">
+                  <span class="product-pill">PNG</span>
+                  <span class="dot-separator"></span>
+                  <span class="product-pill">JPGE</span>
+                  <span class="dot-separator"></span>
+                  <span class="product-pill">AI</span>
+                </div>
+              </div>
+              <div class="product-footer">
+                <button
+                  class="btn btn-outline view-preview"
+                  data-gallery="product-5"
+                >
+                  <i class="ri-eye-line"></i>
+                  View Preview
+                </button>
+              </div>
+            </article>
+            <article
+            class="product-card"
+            data-animate="fade-up"
+            data-animate-delay="80"
+          >
+            <div class="product-thumb">
+              <img
+                src="images/PACK DEMON SLAYER.jpg"
+                alt="Mobile banking app preview"
+                loading="lazy"
+              />
+            </div>
+            <div class="product-body">
+              <h3 class="product-title">Demon Slayer designs</h3>
+              <p class="product-description">
+                High-quality images of Demon Slayer anime characters
+              </p>
+              <div class="product-meta-row">
+                <span class="product-pill">PNG</span>
+                <span class="dot-separator"></span>
+                <span class="product-pill">JPGE</span>
+                <span class="dot-separator"></span>
+                <span class="product-pill">AI</span>
+              </div>
+            </div>
+            <div class="product-footer">
+              <button
+                class="btn btn-outline view-preview"
+                data-gallery="product-6"
+              >
+                <i class="ri-eye-line"></i>
+                View Preview
+              </button>
+            </div>
+          </article>
+          <div class="products-more-note" data-animate="fade-up">
+            And more with over 5,000+ additional designs in the package.
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <header class="section-header" data-animate="fade-up">
+            <p class="eyebrow">
+              <span class="eyebrow-dot"></span>Contact
+            </p>
+            <h2 class="section-title">If you have any question</h2>
+            <p class="section-subtitle">
+              Contact me directly on WhatsApp or by email and I’ll be happy to help.
+            </p>
+          </header>
+
+          <div class="contact-grid" data-animate="fade-up" data-animate-delay="80">
+            <div class="contact-card">
+              <div class="contact-label">
+                <i class="ri-whatsapp-line"></i>
+                WhatsApp
+              </div>
+              <a
+                href="https://wa.me/213549264703"
+                class="contact-value"
+                target="_blank"
+                rel="noreferrer"
+              >
+                +213 549 264 703
+              </a>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-label">
+                <i class="ri-mail-line"></i>
+                Email
+              </div>
+              <a
+                href="mailto:amjed.amir100@gmail.com"
+                class="contact-value"
+              >
+                amjed.amir100@gmail.com
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal / Lightbox for Product Previews -->
+    <div class="modal" id="galleryModal" aria-hidden="true">
+      <div class="modal-backdrop" data-modal-close></div>
+      <div class="modal-dialog" role="dialog" aria-modal="true">
+        <button
+          class="modal-close"
+          type="button"
+          aria-label="Close preview"
+          data-modal-close
+        >
+          <span class="close-inner">
+            <span class="close-line close-line-1"></span>
+            <span class="close-line close-line-2"></span>
+          </span>
+        </button>
+        <div class="modal-content">
+          <div class="modal-meta">
+            <span class="modal-pill">
+              <i class="ri-gallery-line"></i>
+              Product Preview
+            </span>
+            <span class="modal-counter" id="modalCounter">1 / 3</span>
+          </div>
+          <div class="modal-image-shell">
+            <div class="modal-image-frame">
+              <img
+                id="modalImage"
+                src=""
+                alt="Product preview"
+                class="modal-image"
+              />
+              <div class="modal-gradient-overlay"></div>
+            </div>
+          </div>
+          <div class="modal-controls">
+            <button
+              type="button"
+              class="btn btn-ghost modal-nav"
+              id="modalPrev"
+            >
+              <i class="ri-arrow-left-line"></i>
+              Previous
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary modal-nav"
+              id="modalNext"
+            >
+              Next
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </div>
+          <p class="modal-helper">
+            Use the navigation to browse preview images. All images are
+            placeholders and can be replaced with your own product shots.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
